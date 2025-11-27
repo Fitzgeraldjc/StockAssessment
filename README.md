@@ -11,7 +11,7 @@ This application queries the Alpha Vantage `TIME_SERIES_INTRADAY` endpoint (15-m
 
 The API is built to handle the external API's JSON structure (dynamic date keys) and provides a clean JSON response to the client.
 
-## Tech Stack
+## Tools Used
 
 * .NET 8 Web API
 * C#
