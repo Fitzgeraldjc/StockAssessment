@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 // 1. Register the Service
 builder.Services.AddHttpClient<IStockService, StockService>();
 
-// Add this if you want swagger (optional but good for testing)
+// Added Swagger for testing
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -41,3 +41,4 @@ app.MapGet(
     .WithName("GetStockData");
 
 app.Run();
+
